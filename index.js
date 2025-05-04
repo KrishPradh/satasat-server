@@ -45,7 +45,7 @@ const app = express();
 
 // Middleware
 app.use(cors({  
-    origin: 'http://localhost:3000',
+    origin: 'https://satasatofficial.vercel.app',
     credentials: true,
 }));
 app.use(express.json());
